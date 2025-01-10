@@ -4,64 +4,76 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About</title>
+    <link rel="stylesheet" href="styles/styles.css" />
   </head>
   <body>
-    <header>
-      <img src="images/profile-picture.png" alt="profile picture" />
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="education.html">Education</a></li>
-          <li><a href="skills.html">Skill</a></li>
-          <li><a href="contact.html">contact me</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section>
-        <video src="video/wild-life.mp4" controls>wild life video</video>
-        <h2>I love nature documentaries</h2>
-        <p>
-          I love watching nature,the way it balances itself.I love how the
-          camera reveals the breathtaking beauty of nature, producing images of
-          exceptional quality and detail.My love for nature documentaries not
-          only fuels my curiosity about the world but also profoundly shapes my
-          approach to web development. Through countless hours immersed in these
-          visual narratives, I've developed a keen eye for detail and a deep
-          appreciation for storytelling—skills that are essential in creating
-          compelling and intuitive web experiences. Just as nature documentaries
-          weave together intricate visuals and informative content to captivate
-          their audience, I strive to craft web pages that are both visually
-          appealing and highly functional. This passion for nature drives my
-          commitment to continuous learning and staying updated with the latest
-          technologies, ensuring that my web development skills are as dynamic
-          and adaptable as the natural world I admire.
-        </p>
-      </section>
-      <section>
-        <h2>I'm also a devout christian</h2>
+    <div class="content">
+      <header>
+        <img
+          src="images/profile-picture.png"
+          alt="profile picture"
+          class="profile-picture"
+        />
+        <nav>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="skills.html">Skill</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section>
+          <video src="video/wild-life.mp4" controls class="documentary">
+            wild life video
+          </video>
+          <div>
+            <h2>I love nature documentaries</h2>
+            <p class="body-text">
+              I love watching nature,the way it balances itself.I love how the
+              camera reveals the breathtaking beauty of nature, producing images
+              of exceptional quality and detail.My love for nature documentaries
+              not only fuels my curiosity about the world but also profoundly
+              shapes my approach to web development. Through countless hours
+              immersed in these visual narratives, I've developed a keen eye for
+              detail and a deep appreciation for storytelling—skills that are
+              essential in creating compelling and intuitive web experiences.
+              Just as nature documentaries weave together intricate visuals and
+              informative content to captivate their audience, I strive to craft
+              web pages that are both visually appealing and highly functional.
+              This passion for nature drives my commitment to continuous
+              learning and staying updated with the latest technologies,
+              ensuring that my web development skills are as dynamic and
+              adaptable as the natural world I admire.
+            </p>
+          </div>
+        </section>
+        <section>
+          <h2>I'm also a devout christian</h2>
 
-        <p>Here is one of my favorite gospel songs</p>
-        <audio controls>
-          <source src="audio/Promises.mp3" type="audio/mpeg" />
-          your browser doesn't support the audio element
-        </audio>
-        <p>
-          My Christian faith profoundly shapes my character, fostering
-          integrity, diligence, and a strong work ethic that directly benefit my
-          work as a web developer. The values of honesty and transparency,
-          central to my faith, translate into building trustworthy and reliable
-          websites. My commitment to serving others motivates me to create
-          user-friendly and accessible interfaces, ensuring a positive
-          experience for all users. Furthermore, the perseverance and patience
-          instilled by my faith help me overcome challenges and debug complex
-          code with resilience and a positive attitude. This dedication to
-          excellence, fueled by my beliefs, ultimately makes me a more effective
-          and compassionate web developer.
-        </p>
-      </section>
-    </main>
+          <p class="body-text">Here is one of my favorite gospel songs</p>
+          <audio controls>
+            <source src="audio/Promises.mp3" type="audio/mpeg" />
+            your browser doesn't support the audio element
+          </audio>
+          <p class="body-text">
+            My Christian faith profoundly shapes my character, fostering
+            integrity, diligence, and a strong work ethic that directly benefit
+            my work as a web developer. The values of honesty and transparency,
+            central to my faith, translate into building trustworthy and
+            reliable websites. My commitment to serving others motivates me to
+            create user-friendly and accessible interfaces, ensuring a positive
+            experience for all users. Furthermore, the perseverance and patience
+            instilled by my faith help me overcome challenges and debug complex
+            code with resilience and a positive attitude. This dedication to
+            excellence, fueled by my beliefs, ultimately makes me a more
+            effective and compassionate web developer.
+          </p>
+        </section>
+      </main>
+    </div>
     <footer>@2024 Hawi Andarsa. All right reserved</footer>
   </body>
 </html>
