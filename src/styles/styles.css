@@ -195,6 +195,11 @@ main .grid-container {
 }
 
 @media (max-width: 900px) and (orientation: portrait) {
+  body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
   header {
     display: flex;
     flex-direction: row;
@@ -207,6 +212,7 @@ main .grid-container {
 
   .content {
     display: block;
+    flex: 1 0 auto;
   }
 
   .profile-picture {
@@ -319,6 +325,11 @@ main .grid-container {
 }
 
 @media (max-width: 767px) and (orientation: landscape) {
+  body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
   header {
     display: flex;
     flex-direction: row;
@@ -331,6 +342,7 @@ main .grid-container {
 
   .content {
     display: block;
+    flex: 1 0 auto;
   }
 
   .profile-picture {
