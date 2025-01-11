@@ -51,9 +51,9 @@ main {
   margin-bottom: 30px;
 }
 main section .documentary {
-  width: 450px;
   float: left;
   margin-right: 20px;
+  width: 50%;
 }
 
 h2 {
@@ -144,6 +144,9 @@ main.contact-container {
   border: #57001a solid 1px;
   padding: 5%;
 }
+.customer-input {
+  width: 80%;
+}
 
 table {
   border-collapse: collapse;
@@ -155,6 +158,7 @@ td {
   padding: 8px;
   text-align: left;
   color: #57001a;
+  font-size: 0.85rem;
 }
 td a {
   color: #57001a;
@@ -189,6 +193,7 @@ main .grid-container {
 .certificates {
   width: 90%;
 }
+
 @media (max-width: 900px) and (orientation: portrait) {
   header {
     display: flex;
@@ -232,7 +237,7 @@ main .grid-container {
   nav ul li a {
     text-decoration: none;
     color: #f5e6ea;
-    font-size: 11px;
+    font-size: 9px;
   }
 
   main {
@@ -285,17 +290,34 @@ main .grid-container {
   .education-container img {
     margin-bottom: 2%;
   }
-
+  main .grid-container {
+    margin: auto;
+  }
   .grid-container {
-    width: 40%;
+    width: 52%;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 4%;
+    grid-gap: 6%;
     margin: 4% auto;
+  }
+
+  .main-skill-container {
+    padding: 0;
   }
   .main-container {
     margin: 0 -15%;
   }
+  .main-contact-container {
+    width: 90%;
+    padding: 0;
+  }
+  td {
+    font-size: 0.65em;
+  }
+  .customer-input {
+    width: 65%;
+  }
 }
+
 @media (max-width: 767px) and (orientation: landscape) {
   header {
     display: flex;
@@ -346,7 +368,6 @@ main .grid-container {
     margin: 5%;
   }
   main section .documentary {
-    width: 0%;
     margin: 5%;
   }
 
@@ -381,15 +402,26 @@ main .grid-container {
   }
   .education-container img {
     margin-bottom: 2%;
+    max-width: 70%;
   }
   main.contact-container {
     max-width: 400px;
+  }
+  .main-contact-container {
+    padding: 0;
+    margin: auto;
+  }
+  .main-skill-container {
+    padding: 0;
+  }
+  main .grid-container {
+    margin: auto;
   }
 
   .grid-container {
     width: 60%;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 4%;
-    margin: 4% auto;
+    margin: auto;
   }
 }
